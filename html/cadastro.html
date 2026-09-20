@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="author" content="Mariana Firmo" />
+    <meta name="description" content="Faça seu cadastro no Road Of the Supernatural e escolha seu personagem favorito da série Supernatural." />
+    <meta name="keywords" content="cadastro, Supernatural, Road Of the Supernatural, formulário, fãs, personagem favorito, Sam Winchester, Dean Winchester, Castiel" />    
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <nav>
+        <a href="../index.html">◀ voltar</a>
+    </nav>
+    <br>
+    <figure>
+        <img src="../imagem/armadilha.png" width="250" alt="Armadilha do diabo">
+    </figure>
+    <header>
+        <h3>Cadastre-se</h3>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <article>
+                <form action="../html/home.html">
+
+                    <label>Nome:</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome completo">
+
+                    <br><br>
+
+                    <label>E-mail:</label>
+                    <input type="email" name="email" placeholder="exemplo@email.com" required>
+
+                    <br><br>
+
+                    <label>Data de nascimento:</label>
+                    <input type="date" name="nascimento">
+
+                    <br><br>
+                    <label>Qual seu personagem favorito?</label>
+                    <input list="personagens" name="personagem" placeholder="Escolha ou digite">
+                    <datalist id="personagens">
+                        <option value="Sam Winchester">
+                        <option value="Dean Winchester">
+                        <option value="Castiel">
+                        <option value="Crowley">
+                        <option value="Bobby Singer">
+                        <option value="John Winchester">
+                    </datalist>
+                    <br><br>
+
+                    <input type="submit" value="Enviar">
+            </article>
+        </section>
+    </main>
+
+    </form>
+    <hr>
+
+    <footer>
+        <p>© 2026 Road Of the Supernatural</p>
+    </footer>
+
+</body>
+
+</html>
